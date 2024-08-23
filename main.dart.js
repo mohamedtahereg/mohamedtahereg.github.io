@@ -77535,7 +77535,7 @@ A.kf.prototype={}
 A.h9.prototype={}
 A.JM.prototype={}
 A.JN.prototype={
-K(a){var s=new A.q3(new A.a7d(A.a([new A.rw("SilentGuard","SilentGuard allows users to quickly send emergency alerts to predefined contacts, sharing their location via the app and SMS. Recipients can interact with the alert and track the user's live location if they agree to assist. The app features a simple and intuitive interface, ensuring fast communication and effective rescue operations.",A.a(["assets/images/silent1.jpg","assets/images/silent2.jpg","assets/images/silent3.jpg"],t.s))],t.CH)),new A.a7e(),null,t.uI)
+K(a){var s=new A.q3(new A.a7d(A.a([new A.rw("SilentGuard","SilentGuard allows users to quickly send emergency alerts to predefined contacts, sharing their location via the app and SMS. Recipients can interact with the alert and track the user's live location if they agree to assist. The app features a simple and intuitive interface, ensuring fast communication and effective rescue operations.",A.a(["assets/images/silent4.png","assets/images/silent5.png"],t.s))],t.CH)),new A.a7e(),null,t.uI)
 return new A.v6(s,new A.a7f(),s,null,t.AA)}}
 A.a7f.prototype={
 $1(a){var s
