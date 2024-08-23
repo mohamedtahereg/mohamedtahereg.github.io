@@ -77513,7 +77513,7 @@ $0(){this.a.d=this.b},
 $S:0}
 A.rw.prototype={}
 A.vC.prototype={
-K(a){var s=null,r=$.ag,q=A.hw(24),p=A.hw(24),o=A.hw(24),n=A.ar2(1,!0,!1,!0,500,B.Aq,1),m=this.c,l=A.X(m).h("a0<1,cO>")
+K(a){var s=null,r=$.ag,q=A.hw(24),p=A.hw(24),o=A.hw(24),n=A.ar2(1,!0,!0,!0,500,B.Aq,1),m=this.c,l=A.X(m).h("a0<1,cO>")
 return A.cH(s,A.cH(s,A.XK(o,A.ar3(new A.FL(new A.bC(new A.at(r,t.wC),t.Fe)),A.V(new A.a0(m,new A.Yq(),l),!0,l.h("ax.E")),n)),B.t,s,s,new A.ch(B.k,s,s,p,s,s,B.a7),s,s,B.Gl,s,s,s,s),B.t,s,s,new A.ch(s,B.AH,s,q,s,s,B.a7),s,500,s,s,s,s,240)}}
 A.Yq.prototype={
 $1(a){return new A.cO(new A.Yp(a),null)},
@@ -77535,7 +77535,7 @@ A.kf.prototype={}
 A.h9.prototype={}
 A.JM.prototype={}
 A.JN.prototype={
-K(a){var s=new A.q3(new A.a7d(A.a([new A.rw("SilentGuard","SilentGuard allows users to quickly send emergency alerts to predefined contacts, sharing their location via the app and SMS. Recipients can interact with the alert and track the user's live location if they agree to assist. The app features a simple and intuitive interface, ensuring fast communication and effective rescue operations.",A.a(["assets/images/\u0635\u0648\u0631\u0629 \u0645\u062d\u0645\u062f-min.png"],t.s))],t.CH)),new A.a7e(),null,t.uI)
+K(a){var s=new A.q3(new A.a7d(A.a([new A.rw("SilentGuard","SilentGuard allows users to quickly send emergency alerts to predefined contacts, sharing their location via the app and SMS. Recipients can interact with the alert and track the user's live location if they agree to assist. The app features a simple and intuitive interface, ensuring fast communication and effective rescue operations.",A.a(["assets/images/silent4.png","assets/images/silent5.png"],t.s))],t.CH)),new A.a7e(),null,t.uI)
 return new A.v6(s,new A.a7f(),s,null,t.AA)}}
 A.a7f.prototype={
 $1(a){var s
