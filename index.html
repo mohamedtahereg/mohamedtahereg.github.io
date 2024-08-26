@@ -2,6 +2,7 @@
 <html>
 
 <head>
+
   <meta charset="UTF-8">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
   <meta name="description" content="A new Flutter project.">
@@ -106,9 +107,7 @@
 </head>
 
 <body>
-  <!-- <script type="text/javascript">
-    window.flutterWebRenderer = "html";
-  </script> -->
+
   <script>
     function delay(time) {
       return new Promise(resolve => setTimeout(resolve, time));
@@ -116,13 +115,6 @@
 
     window.addEventListener('load', function (ev) {
       var loaderWrapper = document.querySelector('#loader-wrapper');
-      // var logoImage = document.querySelector('#logo-image');
-
-      // if (!loaderWrapper || !logoImage) {
-      //   console.error('Loader wrapper or logo image not found.');
-      //   return;
-      // }
-
       _flutter.loader.load({
         serviceWorker: {
           serviceWorkerVersion: serviceWorkerVersion,
@@ -130,19 +122,9 @@
         onEntrypointLoaded: function (engineInitializer) {
           engineInitializer.initializeEngine().then(async function (appRunner) {
             try {
-              // Wait for the Flutter app to be fully initialized
               await appRunner.runApp();
-
-              // Fade out the loader and logo
-              // loaderWrapper.style.opacity = 0;
-              // logoImage.style.opacity = 0;
-
-              // Ensure the fade-out is complete before removing the elements
               await delay(400);
-
-              // Remove the elements from the DOM
               loaderWrapper.remove();
-              // logoImage.remove();
             } catch (error) {
               console.error('Error during initialization or removal:', error);
             }
